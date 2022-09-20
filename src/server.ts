@@ -1,4 +1,4 @@
-import express, { response }  from "express";
+import express  from "express";
 import cors from 'cors'
 
 import { PrismaClient } from '@prisma/client'
@@ -98,4 +98,4 @@ app.get('/ads/:id/discord', async (request, response) => {
 })
 
 
-app.listen(3000);
+app.listen(19001);
